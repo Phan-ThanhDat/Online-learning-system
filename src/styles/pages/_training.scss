@@ -1,0 +1,118 @@
+.course-thumbnail {
+  .btn-remove {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .btn-update {
+    position: absolute;
+    right: 75px;
+    top: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.new-training {
+  .course-content {
+    margin-top: 0px;
+    height: 300px;
+    border: 2px dashed black;
+    &:hover {
+      cursor: pointer;
+    }
+    &-wrap {
+      text-align: center;
+      margin-top: auto;
+      height: 100%;
+      i {
+        margin-top: 30%;
+      }
+    }
+    &-active {
+      border: none;
+      height: 100%;
+      .form-check-input {
+        height: 28px;
+      }
+      .form-check-label {
+        line-height: 38px;
+      }
+      .course-content-wrap {
+        max-height: 100%;
+        height: auto;
+      }
+    }
+  }
+  &-step3 {
+    .list-course {
+      // height: 243px;
+      // overflow: auto;
+    }
+    .table {
+      margin: 0px;
+    }
+  }
+}
+.popup-course {
+  .course-content {
+    margin-top: 0px;
+  }
+  .course-thumbnail {
+    text-align: center;
+    position: relative;
+    height: 265px;
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 0 auto;
+    }
+  }
+  img {
+    height: auto;
+    width: auto;
+  }
+}
+.detail-training {
+}
+.detail-course {
+  &-name {
+    font-style: italic;
+  }
+  &-description {
+    font-weight: 100;
+  }
+}
+.detail-module {
+  &-name {
+    font-style: italic;
+  }
+  &-description {
+    font-weight: 100;
+  }
+}
+.detail-content {
+  &-title {
+  }
+  &-description {
+    font-weight: 100;
+  }
+}
+.new-training-page {
+  button {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.table-group-management-td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

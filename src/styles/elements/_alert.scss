@@ -1,0 +1,33 @@
+.error {
+  color: red;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+.react-datetime-picker__wrapper {
+  border: none !important;
+}
+.bg-root {
+  background-color: #19c880;
+  color: white;
+}
+.bg-root-active {
+  background-color: #218838;
+  color: white;
+}
+.bg-danger {
+  background-color: red !important;
+  color: white;
+}
+.border-white {
+  border: 2px solid white;
+}
+ul {
+  padding: 0px;
+  li {
+    list-style: none;
+    padding-left: 15px;
+  }
+}
+.checked {
+  color: orange;
+}

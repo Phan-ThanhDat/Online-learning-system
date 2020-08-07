@@ -1,0 +1,25 @@
+@import "./elements/alert";
+@import "./elements/form";
+@import "./elements/modal";
+@import "./elements/list";
+@import "./elements/image";
+@import "./elements/spinner";
+@import "./elements/carousel";
+@import "./elements/question";
+@import "./elements/pagination";
+@import "./elements/courses";
+@import "./elements/button";
+
+@import "./components/card";
+@import "./components/header";
+@import "./components/footer";
+
+@import "./pages/training.scss";
+@import "./pages/login.scss";
+
+@import "~video-react/styles/scss/video-react";
+@import "~react-simple-tree-menu/dist/main";
+
+button {
+  cursor: pointer;
+}

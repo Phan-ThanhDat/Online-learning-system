@@ -1,0 +1,57 @@
+@media (min-width: 1200px) {
+  .modal-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    max-width: 800px;
+  }
+}
+
+// .modal {
+//   display: block !important; /* I added this to see the modal, you don't need this */
+// }
+
+/* Important part */
+.modal-dialog {
+  overflow-y: initial !important;
+}
+.modal-body {
+  height: 550px;
+  // overflow-y: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  @media screen and (max-height: 800px) {
+    height: 500px;
+  }
+  @media screen and (max-height: 600px) {
+    height: 400px;
+  }
+}
+.modal {
+  z-index: 99999999;
+}
+.fade {
+  background: rgba(62, 62, 62, 0.3);
+}
+.modal-dialog-alert {
+  margin: 200px auto;
+}
+.modal-body-alert {
+  height: 100px;
+}
+
+.toast {
+  &-success {
+    background: #60cdf6 !important;
+    background-position: 15px center !important;
+    background-repeat: no-repeat !important;
+  }
+  &-error {
+    background: #d9534f !important;
+    background-position: 15px center !important;
+    background-repeat: no-repeat !important;
+  }
+}
